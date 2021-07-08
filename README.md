@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/article-preview-component.png)
+![](images/article-preview-component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://github.com/Tuangpi/article-preview-component/)
+- Live Site URL: [Live site](https://tuangpi.github.io/article-preview-component/)
 
 ## My process
 
