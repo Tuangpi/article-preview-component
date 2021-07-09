@@ -1,7 +1,6 @@
 body{
     font-family: Manrope, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
-    line-height: 1.4rem;
     letter-spacing: 0.5px;
     color: var(--d-dark-blue);
     font-weight: 500;
@@ -16,7 +15,7 @@ body{
     }
 }
 .card{
-    width: 38rem;
+    width: 43rem;
     background-color: white;
     display: flex;
     border-radius: 0.5rem;
@@ -28,11 +27,12 @@ body{
         border-radius: 0.5rem;
     }
     &__left{
-        img{
+        .drawers{
+            background-image: url(../images/drawers.jpg);
             width: 15.5rem;
-            height: 16.8rem;
-            object-position: top;
-            object-fit: cover;
+            height: 16rem;
+            background-repeat: no-repeat;
+            background-size: cover;
             border-radius: 0.5rem 0 0 0.5rem;
 
             @media screen and (max-width: 630px) {
@@ -51,7 +51,8 @@ body{
 
         .card_header{
             font-weight: 700;
-            font-size: 0.9rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
             margin-bottom: 0.5rem;
             @media screen and (max-width: 630px) {
                 margin-bottom: 1rem;
